@@ -4,12 +4,11 @@
     {
         Console.WriteLine("enter number:");
         int input = Convert.ToInt32(Console.ReadLine());
-        int resultat = 0;
-        for (int i = 0; i < input; i++) ;
+        int result = 0;
+        for (int i = 0; i <= input; i++) 
         {
-            int i = 0;
-            resultat += i;
+            result += i;
         }
-        Console.WriteLine($"resultat: {resultat}");
+        Console.WriteLine($"resultat: {result}");
     }
 }
